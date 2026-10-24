@@ -1,6 +1,16 @@
-<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>STAFF SERVICE</title><meta name="robots" content="noindex"><style>body{min-height:100vh;margin:0;display:grid;place-items:center;background:linear-gradient(135deg,#122942,#087b7a);font:16px system-ui;color:white;text-align:center}main{padding:24px}a{display:inline-block;background:white;color:#133247;padding:15px 24px;border-radius:13px;text-decoration:none;font-weight:700}</style></head><body><main><h1>✦ STAFF SERVICE</h1><p>Misafir değerlendirme anketine yönlendiriliyorsunuz.</p><p>Sie werden zur Gästebefragung weitergeleitet.</p><p>Redirecting to the guest survey.</p><a id="link" href="#">Ankete git / Zur Umfrage / Open survey →</a></main><script>
-// Dağıtımdan sonra burayı gerçek Google Apps Script /exec adresiyle değiştirin.
-const SURVEY_URL='https://script.google.com/macros/s/AKfycbxm0QOcT7bMaiMjMkbkl4TcESQbLeV2xWYzD8CZYK1eHuRL8Q7ooZL5iXTdWOSfNe_PXA/exec';
-const link=document.getElementById('link');
-if(SURVEY_URL.startsWith('https://script.google.com/')){link.href=SURVEY_URL;window.location.replace(SURVEY_URL)}else{link.textContent='Survey link not configured yet';link.removeAttribute('href')}
-</script></body></html>
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#102b43">
+<title>STAFF SERVICE | Guest Survey</title>
+<style>
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#f6f8fb}
+iframe{display:block;border:0;width:100%;height:100%;height:100dvh;background:#f6f8fb}
+</style>
+</head>
+<body>
+<iframe title="STAFF SERVICE – Guest Survey" src="https://script.google.com/macros/s/AKfycbxm0QOcT7bMaiMjMkbkl4TcESQbLeV2xWYzD8CZYK1eHuRL8Q7ooZL5iXTdWOSfNe_PXA/exec" allow="clipboard-write"></iframe>
+</body>
+</html>
